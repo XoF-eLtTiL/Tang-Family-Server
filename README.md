@@ -1,128 +1,159 @@
-# Assetto Corsa 安裝與設定指南
+# 安裝指南
 
-請按照以下步驟進行安裝，安裝後如有問題，請至 **西南 DC Assetto-Corsa 頻道** 提問，**請勿私訊**。
+請依以下步驟進行安裝，安裝後有任何問題請在 **西南DC assetto-corsa 頻道** 提問，**請勿私訊我**。
 
----
+## 資源連結
+1. **遊戲與DLC購買**
+   - [Assetto Corsa 遊戲購買 (Steam)](https://store.steampowered.com/app/244210/Assetto_Corsa/)  
+   - [Japanese Pack DLC (Steam)](https://store.steampowered.com/app/467980/Assetto_corsa__Japanese_Pack/)  
+   - [Dream Pack 1 DLC (Steam)](https://store.steampowered.com/app/347990/Assetto_Corsa__Dream_Pack_1/)
 
-## **遊戲購買**
-- **Assetto Corsa 遊戲購買**: [Assetto Corsa on Steam](https://store.steampowered.com/app/244210/Assetto_Corsa/)
-- **DLC 購買**:
-  - [Assetto Corsa - Japanese Pack](https://store.steampowered.com/app/467980/Assetto_corsa__Japanese_Pack/)
-  - [Assetto Corsa - Dream Pack 1](https://store.steampowered.com/app/347990/Assetto_Corsa__Dream_Pack_1/)
+2. **必要工具與資源**
+   - **Content Manager + 首都高SRP賽道0.9.1 + Sol:** [ShutokoProject.rar](https://drive.google.com/file/d/1uGrcLCn8IadDuWEd6e4Bxh_rptKPqWZS/view?usp=sharing)  
+   - **糖氏Family車包 2.0:** [下載連結](https://drive.google.com/file/d/1l2lj9ZgHYtdf1t7R9uJIXpPawS99YKeR/view)  
+   - **附加車包:** [下載連結](https://drive.google.com/file/d/1AX7E5ftWiOQGXnUDBnTz26nGg-0eCxl9/view)  
+   - **SRP PTB 0.9.3 賽道:** [Shutoko Revival Project 官網](https://shutokorevivalproject.com/)
 
----
-
-## **下載內容**
-1. **Content Manager + 首都高SRP賽道0.9.1 + Sol**:  
-   [ShutokoProject.rar](https://drive.google.com/file/d/1uGrcLCn8IadDuWEd6e4Bxh_rptKPqWZS/view?usp=sharing)
-2. **糖氏Family車包 2.0**:  
-   [下載連結](https://drive.google.com/file/d/1l2lj9ZgHYtdf1t7R9uJIXpPawS99YKeR/view)
-3. **附加車車包**:  
-   [下載連結](https://drive.google.com/file/d/1AX7E5ftWiOQGXnUDBnTz26nGg-0eCxl9/view)
-4. **SRP PTB 0.9.3 賽道**:  
-   [Shutoko Revival Project 官方網站](https://shutokorevivalproject.com/)
+3. **教學影片**  
+   - **[英文版安裝影片: Shutoko Revival Project Official Installation Tutorial](https://www.youtube.com/watch?v=Y4Ku4wyiTl8)**
 
 ---
 
-## **安裝步驟**
-### **1. 準備**
-- 下載上述內容並依序操作。
+## 安裝步驟
 
-### **2. 解壓縮**
-- 將 **Content Manager** 解壓縮至桌面並打開。
+1. **下載並解壓縮資源檔案**  
+   按照順序操作資源，下載的 Google Drive 資源和 PTB 賽道壓縮檔。
 
-### **3. 配置 Content Manager**
-1. 設定 AC 的 Steam 路徑。
-2. 輸入 Steam 帳號與名字。
-3. 安裝 **7-Zip 插件**。
+2. **解壓縮 Content Manager 至桌面**  
+   打開 Content Manager。
 
-### **4. 安裝 Custom Shaders Patch**
-1. 進入 `Settings > Custom Shaders Patch`。
-2. 如需安裝，點擊安裝並更新至版本 **0.2.4**。
+![Image1]
 
-### **5. 安裝賽道與車包**
-1. 將下載的 **SRP Main** 和 **PTB賽道的 7z 檔** 拖至 Content Manager。
-2. 點選右上綠三角，等待載入後點擊 **Install** 進行安裝。
+3. **設定 Content Manager**  
+   - 設定 AC Steam 路徑、Steam 帳號以及名字。
+   - 安裝 7-Zip 插件。  
 
-### **6. 圖形與設定調整**
-1. 修改 `Settings > Custom Shaders Patch > Graphic Adjustment`：
-   - 將 `Far Plane` 改為 **200000, 300000**。
-2. 將糖氏 Family 車包壓縮檔解壓，將 `content` 資料夾拖至 AC 主目錄。
-3. 將 Sol 壓縮檔解壓，將以下 4 個資料夾拖至 AC 主目錄。
+![Image3]
 
----
+4. **Custom Shaders Patch 設定**  
+   - 點入 Settings > Custom Shaders Patch。  
+   - 如果顯示需要安裝，請安裝後更新版本至 **0.2.4**。
 
-## **其他設定**
-### **Weather FX**
-- `Settings > Custom Shaders Patch > Weather FX > Weather Style > Sol`
+![Image4]
 
-### **Python Apps**
-- `Settings > Assetto Corsa > Python Apps` 勾選以下選項：
-  - **請參考圖片指引**
+5. **安裝 SRP 資源與 PTB 賽道**  
+   - 將 **SRP Main** 和 **PTB 賽道的 7z 檔** 直接拖入 Content Manager。  
+   - 點選右上綠色三線，等待載入後點擊 Install 安裝。
 
-### **視頻設置**
-- 修改 `Settings > Assetto Corsa > Video`，根據圖片指引調整。
+![Image5]
 
-### **手把設置**
-#### **Xbox 手把**
-- `Settings > Assetto Corsa > Controls > Input Method` 選擇 **Gamepad / Wheel**。
-- 依據個人喜好設置：
-  - **Next Gear**: 進檔
-  - **Previous Gear**: 退檔
-  - **Handbrake**: 手煞車
-  - **Headlights**: 車頭燈
+6. **設定 Graphic Adjustment**  
+   - 前往 Settings > Custom Shaders Patch > Graphic Adjustment，將 **Far Plane** 更改為 **200000 或 300000**。
 
-#### **手把輔助插件**
-1. 下載 ConsoleFX:  
-   [ConsoleFX 下載](https://gofile.io/d/QsraEx)
-2. 解壓縮後將檔案拖至 `assettocorsa\extension\lua\joypad-assist`。
-3. 在 `Settings > Custom Shaders Patch > Gamepad FX` 選擇 ConsoleFX。
+![Image6]
 
-#### **轉向設定**
-- `Settings > Assetto Corsa > Controls` 修改為指定轉向設置。
-- `Settings > Assetto Corsa > View & UI` 將 **Steering Wheel Limit** 設為 **180**。
+7. **安裝糖氏Family車包與 Sol**  
+   - 解壓縮糖氏 Family 車包，將「content」文件夾拖至 AC 主目錄。
+   - 解壓縮 Sol 壓縮檔，將以下四個文件夾拖至 AC 主目錄。
 
----
+![Image7]
 
-## **伺服器連線**
-### **規章**
-1. **請勿隨意碰撞追撞**。
-2. 日本為右駕國家：
-   - **慢車道：左側**。
-   - **快車道：右側**。
-3. 需要掛機時，請按 `ESC` 返回 **pits**。
-4. 晚上請打開大燈。
-5. **尊重其他玩家，違規可能會被踢/BAN**。
+8. **設定 Weather FX**  
+   - Settings > Custom Shaders Patch > Weather FX > Weather Style，選擇 **Sol**。
 
-### **伺服器列表**
-- **糖氏 FAMILY 伺服器**:  
-  [連線](https://acstuff.ru/s/q:race/online/join?ip=xofkon.ddns.net&httpPort=8889)
-- **SRP 2 (改裝服)**:  
-  [連線](https://acstuff.ru/s/q:race/online/join?ip=15.235.162.98&httpPort=8082)
-- **SRP 3 (街車服)**:  
-  [連線](https://acstuff.ru/s/q:race/online/join?ip=5.161.43.117&httpPort=8083)
+![Image8]
+
+9. **Python Apps 設定**  
+   - 前往 Settings > Assetto Corsa > Python Apps，依下圖勾選選項。
+
+![Image9]
+
+10. **Video 設定**  
+    - Settings > Assetto Corsa > Video，依下圖更改選項。
+
+![Image10]
+
+11. **取消 Content Manager Drive 設定**  
+    - 前往 Settings > Content Manager > Drive，滾輪至最下方，取消勾選以下設定。
+
+![Image11]
 
 ---
 
-## **基本除錯**
-### **1. 找不到 AC 主目錄**
-- 打開 Steam，右鍵遊戲，選擇 **瀏覽本機文檔**。
+## 手把設定 (僅適用於 Xbox 手把)
 
-### **2. Handshake failed**
-- **可能是名字未更換**。
+1. **設定控制方式**  
+   - Settings > Assetto Corsa > Controls > Input Method: 選擇 Gamepad 或 Wheel 為方向盤。  
+   - 根據個人喜好設定操作：  
+     - Next Gear: 進檔  
+     - Previous Gear: 退檔  
+     - Handbrake: 手煞車  
+     - Headlights: 車頭燈  
 
-### **3. CSP 版本過舊**
-- 更新至 **0.2.4**。
+![Image12]
+
+2. **安裝 ConsoleFX 手把輔助插件**  
+   - 下載 ConsoleFX 插件：[下載連結](https://gofile.io/d/QsraEx)。  
+   - 解壓縮後拖入 `assettocorsa\extension\lua\joypad-assist` 資料夾。
+
+3. **選擇 ConsoleFX**  
+   - Settings > Custom Shaders Patch > Gamepad FX，選擇 ConsoleFX。
+
+![Image13]
+
+4. **調整轉向設定**  
+   - Settings > Assetto Corsa > Controls，依以下設定調整轉向。
+
+![Image14]
+
+5. **視角與介面設定**  
+   - Settings > Assetto Corsa > View & UI，將 Steering Wheel Limit 設定為 **180**。
+
+![Image15]
 
 ---
 
-## **好用 MOD 資源**
-1. **大小地圖 comfy map**:  
-   [下載連結](https://www.overtake.gg/downloads/comfy-map.52623/)
-2. **GT7 HUD**:  
-   [下載連結](https://www.overtake.gg/downloads/gt7-hud.56420/)
-3. **頭文字D 轉速表**:  
-   [下載連結](https://www.overtake.gg/downloads/initial-d-arcade-tachometer.21199/)
+## 伺服器連線與規範
+
+1. **伺服器連線**  
+   - **糖氏FAMILY伺服器:** [點此連線](https://acstuff.ru/s/q:race/online/join?ip=xofkon.ddns.net&httpPort=8889)  
+   - **SRP 2 (改裝服):** [點此連線](https://acstuff.ru/s/q:race/online/join?ip=15.235.162.98&httpPort=8082)  
+   - **SRP 3 (街車服):** [點此連線](https://acstuff.ru/s/q:race/online/join?ip=5.161.43.117&httpPort=8083)
+
+2. **基本規章**  
+   - **勿隨意碰撞或追撞。**  
+   - 日本為右駕國家：慢車道為左側，快車道為右側。  
+   - **勿停在路中間**，如需暫停請 ESC 回到 pits。  
+   - 晚上開燈，**請勿逆向**。  
+   - 遵守規定，違規可能會被踢/BAN。
+
+---
+
+## 基本除錯
+
+1. **如何找到 AC 主目錄？**  
+   - 打開 Steam，右鍵遊戲，選擇「瀏覽本機文件」。  
+
+![Image16]
+
+2. **Handshake failed:**  
+   - 檢查是否更換名字。
+
+![Image17]
+
+3. **CSP 版本過舊:**  
+   - 更新 CSP 至 **0.2.4**。
+
+![Image18]
+
+---
+
+## 好用 MOD 區 (需註冊登入)
+1. **大小地圖 (Comfy Map):** [下載連結](https://www.overtake.gg/downloads/comfy-map.52623/)  
+2. **GT7 HUD:** [下載連結](https://www.overtake.gg/downloads/gt7-hud.56420/)  
+3. **頭文字D 轉速表:** [下載連結](https://www.overtake.gg/downloads/initial-d-arcade-tachometer.21199/)
+
+---
 
 
 
