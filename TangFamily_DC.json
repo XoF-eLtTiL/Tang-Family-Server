@@ -1,0 +1,59 @@
+{
+    "name": "ClearVision Red v1.2.6",
+    "description": "A deep crimson adaptation of Clear Vision, painting Discord in rich red hues.",
+    "authors": [
+      {
+         "name": "Taki_Shiwa, edited by Sunny",
+         "id": "466968658997149706"
+      }
+    ],
+    "semanticColors": {
+        "ANDROID_RIPPLE": ["#8a0707", "#8a0707", "#8a0707"],
+        "ACTIVITY_CARD_BACKGROUND": ["#bf4040", "#8a0707", "#bf4040"],
+        "BACKGROUND_FLOATING": ["#471010", "#471010", "#471010"],
+        "BACKGROUND_MENTIONED": ["#9331311a", "#733a3a1a", "#9331311a"],
+        "BACKGROUND_MENTIONED_HOVER": ["#9331311a", "#733a3a1a", "#9331311a"],
+        "BACKGROUND_MESSAGE_HOVER": ["#9331311a", "#733a3a1a", "#9331311a"],
+        "BACKGROUND_PRIMARY": ["#280606", "#280606", "#280606"],
+        "BACKGROUND_SECONDARY": ["#401010", "#401010", "#401010"],
+        "BACKGROUND_TERTIARY": ["#2e0404", "#2e0404", "#2e0404"],
+        "INPUT_BACKGROUND": ["#471010", "#471010", "#471010"],
+        "INTERACTIVE_ACTIVE": ["#e62727", "#e62727", "#e62727"],
+        "INTERACTIVE_HOVER": ["#8a0707", "#733a3a", "#8a0707"],
+        "TEXT_LINK": ["#e62727", "#e62727", "#e62727"],
+        "TEXT_NORMAL": ["#ffcccc", "#ffcccc", "#ffcccc"],
+        "STATUS_DANGER_BACKGROUND": ["#bf4040", "#8a0707", "#bf4040"],
+        "STATUS_WARNING_BACKGROUND": ["#e66262", "#e66262", "#e66262"]
+    },
+    "rawColors": {
+        "PRIMARY_100": "#e64c4c",
+        "PRIMARY_200": "#cc3333",
+        "PRIMARY_300": "#b32424",
+        "PRIMARY_400": "#991919",
+        "PRIMARY_500": "#8a0707",
+        "PRIMARY_600": "#470000",
+        "BLACK_500": "#280606",
+        "WHITE_500": "#ffcccc",
+        "RED_400": "#e62727",
+        "RED_500": "#b32424",
+        "YELLOW_300": "#e66262"
+    },
+    "background": {
+        "url": "https://raw.githubusercontent.com/jamlotrasoiaf/ThemesCorrected/refs/heads/main/ClearVision/Vendetta/dark_red.jpg",
+        "alpha": 1
+    },
+    "plus": {
+        "version": 0,
+        "customOverlays": true,
+        "icons": {
+            "ic_mic_neutral": "#8a0707",
+            "ic_mic_muted_neutral": "#8a0707",
+            "ic_soundboard":"#8a0707",
+            "ic_soundboard_muted": "#8a0707",
+            "ic_video": "#8a0707",
+            "ic_video_disabled": "#8a0707"
+        },
+        "iconpack":"rosiecord-plumpy"
+    },
+    "spec": 2
+}
