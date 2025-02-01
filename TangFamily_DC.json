@@ -1,59 +1,105 @@
 {
-    "name": "ClearVision Red v1.2.6",
-    "description": "A deep crimson adaptation of Clear Vision, painting Discord in rich red hues.",
-    "authors": [
-      {
-         "name": "Taki_Shiwa, edited by Sunny",
-         "id": "466968658997149706"
-      }
-    ],
-    "semanticColors": {
-        "ANDROID_RIPPLE": ["#8a0707", "#8a0707", "#8a0707"],
-        "ACTIVITY_CARD_BACKGROUND": ["#bf4040", "#8a0707", "#bf4040"],
-        "BACKGROUND_FLOATING": ["#471010", "#471010", "#471010"],
-        "BACKGROUND_MENTIONED": ["#9331311a", "#733a3a1a", "#9331311a"],
-        "BACKGROUND_MENTIONED_HOVER": ["#9331311a", "#733a3a1a", "#9331311a"],
-        "BACKGROUND_MESSAGE_HOVER": ["#9331311a", "#733a3a1a", "#9331311a"],
-        "BACKGROUND_PRIMARY": ["#280606", "#280606", "#280606"],
-        "BACKGROUND_SECONDARY": ["#401010", "#401010", "#401010"],
-        "BACKGROUND_TERTIARY": ["#2e0404", "#2e0404", "#2e0404"],
-        "INPUT_BACKGROUND": ["#471010", "#471010", "#471010"],
-        "INTERACTIVE_ACTIVE": ["#e62727", "#e62727", "#e62727"],
-        "INTERACTIVE_HOVER": ["#8a0707", "#733a3a", "#8a0707"],
-        "TEXT_LINK": ["#e62727", "#e62727", "#e62727"],
-        "TEXT_NORMAL": ["#ffcccc", "#ffcccc", "#ffcccc"],
-        "STATUS_DANGER_BACKGROUND": ["#bf4040", "#8a0707", "#bf4040"],
-        "STATUS_WARNING_BACKGROUND": ["#e66262", "#e66262", "#e66262"]
-    },
-    "rawColors": {
-        "PRIMARY_100": "#e64c4c",
-        "PRIMARY_200": "#cc3333",
-        "PRIMARY_300": "#b32424",
-        "PRIMARY_400": "#991919",
-        "PRIMARY_500": "#8a0707",
-        "PRIMARY_600": "#470000",
-        "BLACK_500": "#280606",
-        "WHITE_500": "#ffcccc",
-        "RED_400": "#e62727",
-        "RED_500": "#b32424",
-        "YELLOW_300": "#e66262"
-    },
-    "background": {
-        "url": "https://raw.githubusercontent.com/jamlotrasoiaf/ThemesCorrected/refs/heads/main/ClearVision/Vendetta/dark_red.jpg",
-        "alpha": 1
-    },
-    "plus": {
-        "version": 0,
-        "customOverlays": true,
-        "icons": {
-            "ic_mic_neutral": "#8a0707",
-            "ic_mic_muted_neutral": "#8a0707",
-            "ic_soundboard":"#8a0707",
-            "ic_soundboard_muted": "#8a0707",
-            "ic_video": "#8a0707",
-            "ic_video_disabled": "#8a0707"
-        },
-        "iconpack":"rosiecord-plumpy"
-    },
-    "spec": 2
+  "name": "Tang Family",
+  "version": "3.5.0",
+  "description": "A Dark Red theme for Vendetta.",
+  "authors": [
+    {
+      "name": "@sleepingfatcat",
+      "id": "908089062294949888"
+    }
+  ],
+  "semanticColors": {
+    "ANDROID_RIPPLE": ["#E64E4E"],
+    "TEXT_NORMAL": ["#FFE0E0"],
+    "TEXT_MUTED": ["#A88294"],
+    "TEXT_DANGER": ["#A92121"],
+    "TEXT_LINK": ["#FF4545"],
+    "BG_BACKDROP": ["#400707"],
+    "BACKGROUND_PRIMARY": ["#400808"],
+    "BACKGROUND_SECONDARY": ["#30100F"],
+    "BACKGROUND_SECONDARY_ALT": ["#4F0E0E"],
+    "BACKGROUND_TERTIARY": ["#4D1111"],
+    "BACKGROUND_ACCENT": ["#E62626"],
+    "BACKGROUND_FLOATING": ["#451010"],
+    "BACKGROUND_MOBILE_PRIMARY": ["#3B0E0E"],
+    "BACKGROUND_MOBILE_SECONDARY": ["#30100F"],
+    "BACKGROUND_NESTED_FLOATING": ["#30100F"],
+    "BACKGROUND_MESSAGE_HOVER": ["#D32626"],
+    "BACKGROUND_MODIFIER_HOVER": ["#D32626"],
+    "BACKGROUND_MODIFIER_SELECTED": ["#D32626"],
+    "BACKGROUND_MODIFIER_ACCENT": ["#B31414"],
+    "INTERACTIVE_NORMAL": ["#FFA1A1"],
+    "INTERACTIVE_HOVER": ["#E62626"],
+    "INTERACTIVE_ACTIVE": ["#FFFFFF"],
+    "INTERACTIVE_MUTED": ["#715252"],
+    "CHANNELTEXTAREA_BACKGROUND": ["#A44A4A"],
+    "CHANNEL_ICON": ["#978F8F"],
+    "CHANNELS_DEFAULT": ["#978F8F"],
+    "CHAT_BACKGROUND": ["#180303"],
+    "SPOILER_HIDDEN_BACKGROUND": ["#3B0E0E"],
+    "KEYBOARD": ["#400808"],
+    "ACTIVITY_CARD_BACKGROUND": ["#FF0000"],
+    "REDESIGN_ACTIVITY_CARD_BACKGROUND": ["#4E1A1A"],
+    "REDESIGN_ACTIVITY_CARD_BORDER": ["#B31D1D"],
+    "BG_MOD_FAINT": ["#E62626"],
+    "BG_MOD_SUBTLE": ["#E62626"],
+    "BG_MOD_STRONG": ["#E62626"],
+    "CARD_PRIMARY_BG": ["#400707"],
+    "CARD_PRIMARY_PRESSED_BG": ["#4E1A1A"],
+    "CARD_SECONDARY_BG": ["#4E1A1A"],
+    "CARD_SECONDARY_PRESSED_BG": ["#30100F"],
+    "REDESIGN_BUTTON_SECONDARY_BACKGROUND": ["#4E1A1A"],
+    "REDESIGN_BUTTON_SECONDARY_PRESSED_BACKGROUND": ["#30100F"],
+    "REDESIGN_BUTTON_SECONDARY_ALT_BACKGROUND": ["#4F0E0E"],
+    "REDESIGN_BUTTON_SECONDARY_BORDER": ["#E62626"],
+    "BORDER_FAINT": ["#B31D1D"],
+    "BORDER_STRONG": ["#E62626"],
+    "BORDER_SUBTLE": ["#B31D1D"]
+  },
+  "rawColors": {
+    "PRIMARY_100": "#FFFFFF",
+    "PRIMARY_200": "#FFFFFF",
+    "PRIMARY_230": "#FF9A9A",
+    "PRIMARY_300": "#FFFFFF", 
+    "PRIMARY_360": "#988F92", 
+    "PRIMARY_400": "#E62626",
+    "PRIMARY_460": "#4E1A1A", 
+    "PRIMARY_500": "#A02323",
+    "PRIMARY_560": "#4E1A1A", 
+    "PRIMARY_600": "#400808", 
+    "PRIMARY_630": "#30100F", 
+    "PRIMARY_660": "#30100F", 
+    "PRIMARY_700": "#4F0E0E", 
+    "PRIMARY_800": "#4F0E0E",
+    "PLUM_18": "#30100F",
+    "PLUM_20": "#30100F",
+    "BRAND_260": "#FF9A9A",
+    "BRAND_360": "#E62626",
+    "BRAND_500": "#E62626",
+    "BRAND_560": "#FFFFFF",
+    "GREEN_360": "#E62626",
+    "YELLOW_300": "#E62626",
+    "WHITE_500": "#FFFDFE",
+    "BLACK_500": "#451010",
+    "RED_400": "#A92121"
+  },
+  "plus": {
+    "version": "0",
+    "customOverlays": true,
+    "iconpack": "rosiecord-plumpy",
+    "icons": {
+      "StatusStreaming": "#DB306F",
+      "StatusMobileOnline": "#FF0000",
+      "StatusIdle": "#FFA000",
+      "StatusDND": "#FF0000",
+      "StatusOffline": "#7F7373",
+      "StatusOnline": "#FF0000"
+    }
+  },
+  "background": {
+    "blur": 0.6,
+    "url": "https://raw.githubusercontent.com/XoF-eLtTiL/Tang-Family-Server/refs/heads/main/DC_phone.png",
+    "alpha": 0.5
+  },
+  "spec": 2
 }
