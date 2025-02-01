@@ -191,7 +191,7 @@
     "background": {
         "blur": 0.7,
         "url": "https://raw.githubusercontent.com/XoF-eLtTiL/Tang-Family-Server/refs/heads/main/DC_phone.png",
-        "alpha": 0
+        "alpha": 1
     },
     "spec": 2
 }
