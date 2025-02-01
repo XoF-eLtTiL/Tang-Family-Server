@@ -1,105 +1,197 @@
 {
-  "name": "Tang Family",
-  "version": "3.5.0",
-  "description": "A Dark Red theme for Vendetta.",
-  "authors": [
-    {
-      "name": "@xofelttil",
-      "id": "399201706652598272"
-    }
-  ],
-  "semanticColors": {
-    "ANDROID_RIPPLE": ["#E64E4E"],
-    "TEXT_NORMAL": ["#FFE0E0"],
-    "TEXT_MUTED": ["#A88294"],
-    "TEXT_DANGER": ["#A92121"],
-    "TEXT_LINK": ["#FF4545"],
-    "BG_BACKDROP": ["#400707"],
-    "BACKGROUND_PRIMARY": ["#400808"],
-    "BACKGROUND_SECONDARY": ["#30100F"],
-    "BACKGROUND_SECONDARY_ALT": ["#4F0E0E"],
-    "BACKGROUND_TERTIARY": ["#4D1111"],
-    "BACKGROUND_ACCENT": ["#E62626"],
-    "BACKGROUND_FLOATING": ["#451010"],
-    "BACKGROUND_MOBILE_PRIMARY": ["#3B0E0E"],
-    "BACKGROUND_MOBILE_SECONDARY": ["#30100F"],
-    "BACKGROUND_NESTED_FLOATING": ["#30100F"],
-    "BACKGROUND_MESSAGE_HOVER": ["#D32626"],
-    "BACKGROUND_MODIFIER_HOVER": ["#D32626"],
-    "BACKGROUND_MODIFIER_SELECTED": ["#D32626"],
-    "BACKGROUND_MODIFIER_ACCENT": ["#B31414"],
-    "INTERACTIVE_NORMAL": ["#FFA1A1"],
-    "INTERACTIVE_HOVER": ["#E62626"],
-    "INTERACTIVE_ACTIVE": ["#FFFFFF"],
-    "INTERACTIVE_MUTED": ["#715252"],
-    "CHANNELTEXTAREA_BACKGROUND": ["#A44A4A"],
-    "CHANNEL_ICON": ["#978F8F"],
-    "CHANNELS_DEFAULT": ["#978F8F"],
-    "CHAT_BACKGROUND": ["#180303"],
-    "SPOILER_HIDDEN_BACKGROUND": ["#3B0E0E"],
-    "KEYBOARD": ["#400808"],
-    "ACTIVITY_CARD_BACKGROUND": ["#FF0000"],
-    "REDESIGN_ACTIVITY_CARD_BACKGROUND": ["#4E1A1A"],
-    "REDESIGN_ACTIVITY_CARD_BORDER": ["#B31D1D"],
-    "BG_MOD_FAINT": ["#E62626"],
-    "BG_MOD_SUBTLE": ["#E62626"],
-    "BG_MOD_STRONG": ["#E62626"],
-    "CARD_PRIMARY_BG": ["#400707"],
-    "CARD_PRIMARY_PRESSED_BG": ["#4E1A1A"],
-    "CARD_SECONDARY_BG": ["#4E1A1A"],
-    "CARD_SECONDARY_PRESSED_BG": ["#30100F"],
-    "REDESIGN_BUTTON_SECONDARY_BACKGROUND": ["#4E1A1A"],
-    "REDESIGN_BUTTON_SECONDARY_PRESSED_BACKGROUND": ["#30100F"],
-    "REDESIGN_BUTTON_SECONDARY_ALT_BACKGROUND": ["#4F0E0E"],
-    "REDESIGN_BUTTON_SECONDARY_BORDER": ["#E62626"],
-    "BORDER_FAINT": ["#B31D1D"],
-    "BORDER_STRONG": ["#E62626"],
-    "BORDER_SUBTLE": ["#B31D1D"]
-  },
-  "rawColors": {
-    "PRIMARY_100": "#FFFFFF",
-    "PRIMARY_200": "#FFFFFF",
-    "PRIMARY_230": "#FF9A9A",
-    "PRIMARY_300": "#FFFFFF", 
-    "PRIMARY_360": "#988F92", 
-    "PRIMARY_400": "#E62626",
-    "PRIMARY_460": "#4E1A1A", 
-    "PRIMARY_500": "#A02323",
-    "PRIMARY_560": "#4E1A1A", 
-    "PRIMARY_600": "#400808", 
-    "PRIMARY_630": "#30100F", 
-    "PRIMARY_660": "#30100F", 
-    "PRIMARY_700": "#4F0E0E", 
-    "PRIMARY_800": "#4F0E0E",
-    "PLUM_18": "#30100F",
-    "PLUM_20": "#30100F",
-    "BRAND_260": "#FF9A9A",
-    "BRAND_360": "#E62626",
-    "BRAND_500": "#E62626",
-    "BRAND_560": "#FFFFFF",
-    "GREEN_360": "#E62626",
-    "YELLOW_300": "#E62626",
-    "WHITE_500": "#FFFDFE",
-    "BLACK_500": "#451010",
-    "RED_400": "#A92121"
-  },
-  "plus": {
-    "version": "0",
-    "customOverlays": true,
-    "iconpack": "rosiecord-plumpy",
-    "icons": {
-      "StatusStreaming": "#DB306F",
-      "StatusMobileOnline": "#FF0000",
-      "StatusIdle": "#FFA000",
-      "StatusDND": "#FF0000",
-      "StatusOffline": "#7F7373",
-      "StatusOnline": "#FF0000"
-    }
-  },
-  "background": {
-    "blur": 0.7,
-    "url": "https://raw.githubusercontent.com/XoF-eLtTiL/Tang-Family-Server/refs/heads/main/DC_phone.png",
-    "alpha": 0
-  },
-  "spec": 2
+    "name": "Tang Family",
+    "version": "3.5.0",
+    "description": "A Dark Red theme for Vendetta.",
+    "authors": [
+        {
+            "name": "@xofelttil",
+            "id": "399201706652598272"
+        }
+    ],
+    "semanticColors": {
+        "ANDROID_RIPPLE": [
+            "#E64E4E"
+        ],
+        "TEXT_NORMAL": [
+            "#FFE0E0"
+        ],
+        "TEXT_MUTED": [
+            "#A88294"
+        ],
+        "TEXT_DANGER": [
+            "#A92121"
+        ],
+        "TEXT_LINK": [
+            "#FF4545"
+        ],
+        "BG_BACKDROP": [
+            "#400707"
+        ],
+        "BACKGROUND_PRIMARY": [
+            "#400808"
+        ],
+        "BACKGROUND_SECONDARY": [
+            "#30100F"
+        ],
+        "BACKGROUND_SECONDARY_ALT": [
+            "#4F0E0E"
+        ],
+        "BACKGROUND_TERTIARY": [
+            "#4D1111"
+        ],
+        "BACKGROUND_ACCENT": [
+            "#E62626"
+        ],
+        "BACKGROUND_FLOATING": [
+            "#451010"
+        ],
+        "BACKGROUND_MOBILE_PRIMARY": [
+            "#3B0E0E"
+        ],
+        "BACKGROUND_MOBILE_SECONDARY": [
+            "#30100F"
+        ],
+        "BACKGROUND_NESTED_FLOATING": [
+            "#30100F"
+        ],
+        "BACKGROUND_MESSAGE_HOVER": [
+            "#D32626"
+        ],
+        "BACKGROUND_MODIFIER_HOVER": [
+            "#D32626"
+        ],
+        "BACKGROUND_MODIFIER_SELECTED": [
+            "#D32626"
+        ],
+        "BACKGROUND_MODIFIER_ACCENT": [
+            "#B31414"
+        ],
+        "INTERACTIVE_NORMAL": [
+            "#FFA1A1"
+        ],
+        "INTERACTIVE_HOVER": [
+            "#E62626"
+        ],
+        "INTERACTIVE_ACTIVE": [
+            "#FFFFFF"
+        ],
+        "INTERACTIVE_MUTED": [
+            "#715252"
+        ],
+        "CHANNELTEXTAREA_BACKGROUND": [
+            "#A44A4A"
+        ],
+        "CHANNEL_ICON": [
+            "#978F8F"
+        ],
+        "CHANNELS_DEFAULT": [
+            "#978F8F"
+        ],
+        "CHAT_BACKGROUND": [
+            "#180303"
+        ],
+        "SPOILER_HIDDEN_BACKGROUND": [
+            "#3B0E0E"
+        ],
+        "KEYBOARD": [
+            "#400808"
+        ],
+        "ACTIVITY_CARD_BACKGROUND": [
+            "#FF0000"
+        ],
+        "REDESIGN_ACTIVITY_CARD_BACKGROUND": [
+            "#4E1A1A"
+        ],
+        "REDESIGN_ACTIVITY_CARD_BORDER": [
+            "#B31D1D"
+        ],
+        "BG_MOD_FAINT": [
+            "#E62626"
+        ],
+        "BG_MOD_SUBTLE": [
+            "#E62626"
+        ],
+        "BG_MOD_STRONG": [
+            "#E62626"
+        ],
+        "CARD_PRIMARY_BG": [
+            "#400707"
+        ],
+        "CARD_PRIMARY_PRESSED_BG": [
+            "#4E1A1A"
+        ],
+        "CARD_SECONDARY_BG": [
+            "#4E1A1A"
+        ],
+        "CARD_SECONDARY_PRESSED_BG": [
+            "#30100F"
+        ],
+        "REDESIGN_BUTTON_SECONDARY_BACKGROUND": [
+            "#4E1A1A"
+        ],
+        "REDESIGN_BUTTON_SECONDARY_PRESSED_BACKGROUND": [
+            "#30100F"
+        ],
+        "REDESIGN_BUTTON_SECONDARY_ALT_BACKGROUND": [
+            "#4F0E0E"
+        ],
+        "REDESIGN_BUTTON_SECONDARY_BORDER": [
+            "#E62626"
+        ],
+        "BORDER_FAINT": [
+            "#B31D1D"
+        ],
+        "BORDER_STRONG": [
+            "#E62626"
+        ],
+        "BORDER_SUBTLE": [
+            "#B31D1D"
+        ]
+    },
+    "rawColors": {
+        "PRIMARY_100": "#FFFFFF",
+        "PRIMARY_200": "#FFFFFF",
+        "PRIMARY_230": "#FF9A9A",
+        "PRIMARY_300": "#FFFFFF",
+        "PRIMARY_360": "#988F92",
+        "PRIMARY_400": "#E62626",
+        "PRIMARY_460": "#4E1A1A",
+        "PRIMARY_500": "#A02323",
+        "PRIMARY_560": "#4E1A1A",
+        "PRIMARY_600": "#400808",
+        "PRIMARY_630": "#30100F",
+        "PRIMARY_660": "#30100F",
+        "PRIMARY_700": "#4F0E0E",
+        "PRIMARY_800": "#4F0E0E",
+        "PLUM_18": "#30100F",
+        "PLUM_20": "#30100F",
+        "BRAND_260": "#FF9A9A",
+        "BRAND_360": "#E62626",
+        "BRAND_500": "#E62626",
+        "BRAND_560": "#FFFFFF",
+        "GREEN_360": "#E62626",
+        "YELLOW_300": "#E62626",
+        "WHITE_500": "#FFFDFE",
+        "BLACK_500": "#451010",
+        "RED_400": "#A92121"
+    },
+    "plus": {
+        "version": "0",
+        "customOverlays": true,
+        "iconpack": "rosiecord-plumpy",
+        "icons": {
+            "StatusStreaming": "#DB306F",
+            "StatusMobileOnline": "#FF0000",
+            "StatusIdle": "#FFA000",
+            "StatusDND": "#FF0000",
+            "StatusOffline": "#7F7373",
+            "StatusOnline": "#FF0000"
+        }
+    },
+    "background": {
+        "blur": 0.7,
+        "url": "https://raw.githubusercontent.com/XoF-eLtTiL/Tang-Family-Server/refs/heads/main/DC_phone.png",
+        "alpha": 0
+    },
+    "spec": 2
 }
